@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    height:3000px;
+}
+
+/* banner部分 */
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/banner_bg.jpg) no-repeat 0 0 fixed;
+    background-size:cover;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+.scene1 {
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.banner_left {
+    width: 50vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    transform-origin: left;
+    transform:rotateY(45deg);
+}
+
+.banner_right {
+    width: 50vw;
+    height: 100vh;
+    float: left;
+}
+
+.banner_left_content {
+    width: 603px;
+    height: 100vh;
+    float: right;
+}
+
+.logo {
+    width: 357px;
+    height: 126px;
+    margin-top: 130px;
+    float: left;
+}
+
+.logo_img1 {
+    width: 107px;
+    height: 54px;
+    background: url(../images/logo.png);
+}
+
+.logo_img2 {
+    width: 375px;
+    height: 10px;
+    background: url(../images/welcome.png);
+    margin-top: 52px;
+}
+
+.nav {
+    width: 67px;
+    height: calc(100vh - 250px);
+    float: right;
+    margin-right: 53px;
+    margin-top: 130px;
+    display: flex;
+    /*把当前容器变为一个弹性容器*/
+    flex-wrap: wrap;
+    /*内容超出一行自动换行*/
+    align-content: space-between;
+    /*垂直方向上内容的分布方式*/
+}
+
+.nav-item {
+    width: 67px;
+    height: 16px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.banner_right_content {
+    width: 603px;
+    height: 100vh;
+    padding-top: 148px;
+    box-sizing: border-box;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.banner_img1 {
+    width: 562px;
+    height: 180px;
+    background: url(../images/banner_text.png);
+    margin-left: 60px;
+    transform-origin: right;
+    transform:rotateY(45deg);
+}
+
+.banner_line {
+    width: 68px;
+    height: 5px;
+    background: #fff;
+    margin-left: 60px;
+    margin-top: 55px;
+    transform:translateX(-300px);
+}
+
+.banner_img2 {
+    width: 267px;
+    height: 34px;
+    background: url(../images/banner_technology.png);
+    margin-left: 60px;
+    margin-top: 45px;
+    transform:translateX(-300px);
+}
+
+.banner_img3 {
+    width: 402px;
+    height: 71px;
+    background: url(../images/noah_possible.png);
+    margin-left: 60px;
+    margin-top: 45px;
+    transform:translateX(-300px);
+}
+
+.banner_img4 {
+    width: 142px;
+    height: 44px;
+    background: url(../images/since.png);
+    margin-left: 410px;
+    margin-top: 68px;
+}
+
+/* 基地介绍 */
+.intro {
+    width: 1206px;
+    height: 1492px;
+    margin: 0 auto;
+    margin-top:200vh;
+}
+
+.intro_top {
+    width: 1206px;
+    height: 687px;
+}
+
+.intro_content {
+    width: 802px;
+    height: 687px;
+    float:left;
+}
+
+.intro_bg1 {
+    width: 404px;
+    height: 687px;
+    background: url(../images/2.jpg) no-repeat;
+    float:left;
+}
+
+.intro_content_title{
+    width:802px;
+    height:141px;
+    background:url(../images/1.jpg);
+}
+
+.intro_content_text{
+    width:802px;
+    height:253px;
+    padding-top:46px;
+    box-sizing: border-box;
+    transform:translateX(500px);
+}
+
+.intro_header{
+    width:636px;
+    height:26px;
+    font-size: 26px;
+    color:#424242;
+    letter-spacing:46px;
+    line-height:26px;
+}
+
+.intro_con{
+    width:1062px;
+    height:73px;
+    font-size: 16px;
+    line-height: 28px;
+    color:#807f7f;
+    margin-top:49px;
+    position: relative;
+    z-index: 1;
+}
+
+.intro_bg2{
+    width:802px;
+    height:293px;
+    background:url(../images/3.jpg);
+    transform:translateX(-300px);
+}
+
+.intro_bg4{
+    width:402px;
+    height:402px;
+    background:url(../images/4.jpg);
+    float:left;
+    transform:translateX(-300px);
+}
+
+
+.intro_bg5{
+    width:402px;
+    height:402px;
+    background:url(../images/5.jpg) no-repeat left bottom;
+    float:left;
+}
+
+.intro_bg6{
+    width:402px;
+    height:402px;
+    background:url(../images/6.jpg);
+    float:left;
+    transform:translateX(300px);
+}
+
+.intro_bg7{
+    width:402px;
+    height:402px;
+    background:url(../images/7.jpg);
+    float:left;
+}
+
+.intro_bg8{
+    width:402px;
+    height:402px;
+    background:url(../images/8.jpg);
+    float:left;
+}
+
+.intro_bg9{
+    width:402px;
+    height:402px;
+    background:url(../images/9.jpg);
+    float:left;
+}
+
+/*创业扶持*/
+.support{
+    width:100vw;
+    height:975px;
+    margin-top:134px;
+    position: relative;
+    padding-top:107px;
+    box-sizing: border-box;
+}
+
+.support_bg1{
+    width:1592px;
+    height:636px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.support_bg1_item1{
+    width:277px;
+    height:636px;
+    background:url(../images/3-1.jpg);
+    float:left;
+}
+.support_bg1_item2{
+    width:302px;
+    height:636px;
+    background:url(../images/3-2.jpg);
+    float:left;
+}
+.support_bg1_item3{
+    width:436px;
+    height:636px;
+    background:url(../images/3-3.jpg);
+    float:left;
+}
+.support_bg1_item4{
+    width:577px;
+    height:636px;
+    background:url(../images/3-4.jpg);
+    float:left;
+}
+.support_bg2{
+    width:360px;
+    height:545px;
+    background:#458dfa;
+    position: absolute;
+    right:0;
+    bottom:-205px;
+}
+.support_content{
+    width:1682px;
+    height:868px;
+    margin:0 auto;
+    position: relative;
+    z-index:99;
+}
+
+.support_title{
+    width:845px;
+    height:144px;
+    margin-left:360px;
+}
+.support_title_item1{
+    width:845px;
+    height:69px;
+    background:url(../images/3-top.jpg);
+}
+.support_title_item2{
+    width:845px;
+    height:69px;
+    background:url(../images/3-bot.jpg);
+    margin-top:6px;
+}
+.support_list{
+    width:1682px;
+    height:570px;
+    background:red;
+    margin-top:157px;
+
+}
+
+.support_list_item{
+    width:394px;
+    height:570px;
+    background:#31363e;
+    padding-top:117px;
+    box-sizing: border-box;
+    border-bottom:9px solid #458dfa;
+    float:left;
+    color:#fff;
+}
+
+.support_title_zh{
+    width:100%;
+    height:32px;
+    font-size: 32px;
+    text-align: center;
+    font-family: STSongti-SC-Black;
+    line-height: 32px;
+}
+
+.support_title_en{
+    width: 197px;
+	height: 47px;
+	font-family: STIXGeneral-BoldItalic;
+	font-size: 23px;	
+	line-height: 18px;
+    opacity: 0.5;
+    margin:0 auto;
+    margin-top:25px;
+    text-align: center;
+}
+
+.support_con{
+    width: 291px;
+	height: 156px;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0px;
+    margin:0 auto;
+    margin-top:103px;
+}
+
+.active{
+    width:500px;
+    height:638px;
+    margin-top:-68px;
+    border-bottom-width:21px;
+    background:#fff;
+    color:#090909;
+}
